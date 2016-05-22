@@ -57,3 +57,8 @@ class MockHttp extends Server {
     }
   }
 }
+
+object TestMockHttp extends App {
+  //POST(http://localhost:8082/valid)
+  val mockHttp = new MockHttp
+}
